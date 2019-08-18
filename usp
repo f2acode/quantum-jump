@@ -1,0 +1,13 @@
+#!/bin/bash
+source ./functions
+
+urls=(
+    https://edisciplinas.usp.br
+    https://uspdigital.usp.br/janus/comum/entrada.jsf
+    https://mail.google.com/mail/u/1
+)
+
+project=~/proj/complex_systems_classes/
+
+open_browser "${urls[@]}"
+open_jupyter "$project"
