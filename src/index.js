@@ -1,4 +1,7 @@
 "use strict";
 exports.__esModule = true;
-var browser_1 = require("./helpers/browser");
-browser_1.openBrowser(['gitlab.com', 'reformma.com.br']);
+//import { openBrowser } from "./helpers/browser";
+var file_1 = require("./helpers/file");
+var config = file_1.readConfigFile();
+console.log(config.home);
+//openBrowser(['gitlab.com', 'reformma.com.br'])
