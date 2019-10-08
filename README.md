@@ -1,7 +1,5 @@
-## To make the scripts runnable via terminal
+## Welcome to the next level of starting work
 
-`chmod u+x functions`
+### Development
 
-## To insert this cute project in your PATH
-
-`export PATH=$PATH:/your_path/dobby`
+`npm run dev`
