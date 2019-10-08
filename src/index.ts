@@ -1,5 +1,9 @@
-import { openBrowser } from "./helpers/browser";
+//import { openBrowser } from "./helpers/browser";
+import { readConfigFile } from "./helpers/file";
 
-openBrowser(['gitlab.com', 'reformma.com.br'])
+const config = readConfigFile()
+console.log(config)
+
+//openBrowser(['gitlab.com', 'reformma.com.br'])
 
 
