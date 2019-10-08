@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "bin": {
+    "demo": "./bin/demo.js"
+  },
+  "preferGlobal": true,
+  "author": "felipeaugustox",
   "license": "ISC",
   "dependencies": {
     "@types/shelljs": "^0.8.5",
